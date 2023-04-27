@@ -1,4 +1,4 @@
-# ros_kortex
+# kortex_ros
 ROS Kortex is the official ROS package to interact with Kortex and its related products. It is built upon the Kortex API, documentation for which can be found in the [GitHub Kortex repository](https://github.com/Kinovarobotics/kortex).
 
 ## Download links
@@ -30,7 +30,7 @@ These are the instructions to run in a terminal to create the workspace, clone t
         conan profile update settings.compiler.libcxx=libstdc++11 default
         mkdir -p catkin_workspace/src
         cd catkin_workspace/src
-        git clone -b <branch-name> https://github.com/Kinovarobotics/ros_kortex.git
+        git clone -b <branch-name> https://github.com/samaypashine/kortex_ros.git
         cd ../
         rosdep install --from-paths src --ignore-src -y
 
